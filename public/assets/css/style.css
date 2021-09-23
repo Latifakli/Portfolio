@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 100%;
+    color: white;
+    background-color: rgba(236, 119, 84, 0.781);
+    
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    background-color: indianred;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 1em;
+}
+li {
+    padding: 0 1em;
+    font-style: oblique;
+    font-weight: bold;
+}
+li:hover{
+    color:  rgb(206, 137, 137);
+}
+.aboutme {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2em;
+}
+img {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    border-radius: 80%;
+}
+img:hover {
+    transform: scale(2) rotate(360deg);
+    z-index: 1;
+}
+.présentation {
+    width: 50%;
+    text-align: left;
+    height: 100px;
+}
+footer {
+    margin: 10rem;
+ 
+    text-align: center;
+}
+.description_project {
+    border: solid 2px;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.description_project_title {
+    
+}
+.description_project_picture {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.description_project_text {
+    height: 50px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.description_project_text:hover {
+    overflow: auto;
+
+}
